@@ -1,947 +1,579 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1586597641" tv-usec="495517" name="paste">
-    <NoteDiffCommand midi-source="17472">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="384018" note="45" channel="0" time="5.9994791666666671" length="0.5005208333333333" velocity="64"/>
-        <note id="384021" note="50" channel="0" time="5.9994791666666671" length="0.5005208333333333" velocity="64"/>
-        <note id="384024" note="45" channel="0" time="6.7489583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="384027" note="50" channel="0" time="6.7489583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="384030" note="50" channel="0" time="7.4989583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="384033" note="45" channel="0" time="7.4989583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="384036" note="45" channel="0" time="8.2479166666666668" length="0.50156250000000002" velocity="64"/>
-        <note id="384039" note="50" channel="0" time="8.2479166666666668" length="0.50156250000000002" velocity="64"/>
-        <note id="384042" note="50" channel="0" time="8.9994791666666671" length="0.5005208333333333" velocity="68"/>
-        <note id="384045" note="45" channel="0" time="8.9994791666666671" length="0.5005208333333333" velocity="68"/>
-        <note id="384048" note="45" channel="0" time="9.7484374999999996" length="0.50104166666666672" velocity="68"/>
-        <note id="384051" note="50" channel="0" time="9.7484374999999996" length="0.50104166666666672" velocity="68"/>
-        <note id="384054" note="50" channel="0" time="10.497916666666667" length="0.50156250000000002" velocity="68"/>
-        <note id="384057" note="45" channel="0" time="10.497916666666667" length="0.50156250000000002" velocity="68"/>
-        <note id="384060" note="50" channel="0" time="11.247916666666667" length="0.50156250000000002" velocity="68"/>
-        <note id="384063" note="45" channel="0" time="11.247916666666667" length="0.50156250000000002" velocity="68"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="320" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="375379"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="375391"/>
-            <note note-id="383773"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="383770"/>
-            <note note-id="383726"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="320" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="384036"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="384033"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597653" tv-usec="630381" name="Region end trim">
-    <StatefulDiffCommand obj-id="17474" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="243310" to="182483"/>
-        <length-beats from="16" to="12.000015873015872"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597690" tv-usec="613552" name="resize notes">
-    <NoteDiffCommand midi-source="17472">
-      <ChangedNotes>
-        <Change property="Length" old="0.75" new="0.50156250000000002" id="384036"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="383704"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="383791"/>
-        <Change property="Length" old="0.75" new="0.50156250000000002" id="384039"/>
-        <Change property="Length" old="0.75" new="0.50156250000000002" id="384057"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="384042"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="384021"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="383782"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="384051"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="383707"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="384045"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="384024"/>
-        <Change property="Length" old="0.75" new="0.5" id="383773"/>
-        <Change property="Length" old="0.75" new="0.5" id="383770"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="383776"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="383779"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="384027"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="384033"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="383729"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="383726"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="383732"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="383735"/>
-        <Change property="Length" old="0.75" new="0.50156250000000002" id="384060"/>
-        <Change property="Length" old="0.75" new="0.5" id="375379"/>
-        <Change property="Length" old="0.75" new="0.50156250000000002" id="384063"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="383788"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="384048"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="384030"/>
-        <Change property="Length" old="0.75" new="0.5005208333333333" id="384018"/>
-        <Change property="Length" old="0.75" new="0.50156250000000002" id="384054"/>
-        <Change property="Length" old="0.75" new="0.50104166666666672" id="383785"/>
-        <Change property="Length" old="0.75" new="0.5" id="375391"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="40" left-frame="19600" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="375379"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="384036"/>
-            <note note-id="375391"/>
-            <note note-id="383773"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="384033"/>
-            <note note-id="383770"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="383726"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="40" left-frame="19600" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="375379"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="384036"/>
-            <note note-id="375391"/>
-            <note note-id="383773"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="384033"/>
-            <note note-id="383770"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="383726"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597696" tv-usec="231867" name="resize notes">
-    <NoteDiffCommand midi-source="17472">
-      <ChangedNotes>
-        <Change property="Length" old="0.50156250000000002" new="0.25156250000000002" id="384036"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="383704"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="383791"/>
-        <Change property="Length" old="0.50156250000000002" new="0.25156250000000002" id="384039"/>
-        <Change property="Length" old="0.50156250000000002" new="0.25156250000000002" id="384057"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="384042"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="384021"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="383782"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="384051"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="383707"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="384045"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="384024"/>
-        <Change property="Length" old="0.5" new="0.25" id="383773"/>
-        <Change property="Length" old="0.5" new="0.25" id="383770"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="383776"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="383779"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="384027"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="384033"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="383729"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="383726"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="383732"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="383735"/>
-        <Change property="Length" old="0.50156250000000002" new="0.25156250000000002" id="384060"/>
-        <Change property="Length" old="0.5" new="0.25" id="375379"/>
-        <Change property="Length" old="0.50156250000000002" new="0.25156250000000002" id="384063"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="383788"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="384048"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="384030"/>
-        <Change property="Length" old="0.5005208333333333" new="0.25052083333333336" id="384018"/>
-        <Change property="Length" old="0.50156250000000002" new="0.25156250000000002" id="384054"/>
-        <Change property="Length" old="0.50104166666666672" new="0.25104166666666666" id="383785"/>
-        <Change property="Length" old="0.5" new="0.25" id="375391"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="40" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="375379"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="384036"/>
-            <note note-id="375391"/>
-            <note note-id="383773"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="384033"/>
-            <note note-id="383770"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="383726"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="40" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="375379"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="384036"/>
-            <note note-id="375391"/>
-            <note note-id="383773"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="384033"/>
-            <note note-id="383770"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="383726"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597711" tv-usec="34228" name="resize notes">
-    <NoteDiffCommand midi-source="17472">
-      <ChangedNotes>
-        <Change property="Length" old="0.25156250000000002" new="0.50156250000000002" id="384036"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="383704"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="383791"/>
-        <Change property="Length" old="0.25156250000000002" new="0.50156250000000002" id="384039"/>
-        <Change property="Length" old="0.25156250000000002" new="0.50156250000000002" id="384057"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="384042"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="384021"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="383782"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="384051"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="383707"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="384045"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="384024"/>
-        <Change property="Length" old="0.25" new="0.5" id="383773"/>
-        <Change property="Length" old="0.25" new="0.5" id="383770"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="383776"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="383779"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="384027"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="384033"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="383729"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="383726"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="383732"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="383735"/>
-        <Change property="Length" old="0.25156250000000002" new="0.50156250000000002" id="384060"/>
-        <Change property="Length" old="0.25" new="0.5" id="375379"/>
-        <Change property="Length" old="0.25156250000000002" new="0.50156250000000002" id="384063"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="383788"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="384048"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="384030"/>
-        <Change property="Length" old="0.25052083333333336" new="0.5005208333333333" id="384018"/>
-        <Change property="Length" old="0.25156250000000002" new="0.50156250000000002" id="384054"/>
-        <Change property="Length" old="0.25104166666666666" new="0.50104166666666672" id="383785"/>
-        <Change property="Length" old="0.25" new="0.5" id="375391"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="80" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="375379"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="384036"/>
-            <note note-id="375391"/>
-            <note note-id="383773"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="384033"/>
-            <note note-id="383770"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="383726"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="80" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="375379"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="384036"/>
-            <note note-id="375391"/>
-            <note note-id="383773"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="384033"/>
-            <note note-id="383770"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="383726"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597734" tv-usec="557251" name="duplicate region">
-    <StatefulDiffCommand obj-id="17312" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="17638"/>
-          <Add id="17641"/>
-          <Add id="17644"/>
-          <Add id="17647"/>
-          <Add id="17650"/>
-          <Add id="17653"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="17474" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="243310" to="182483"/>
-        <length-beats from="16" to="12.000015873015872"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17653"/>
-            <Region id="17644"/>
-            <Region id="17647"/>
-            <Region id="17650"/>
-            <Region id="17638"/>
-            <Region id="17641"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597917" tv-usec="73369" name="delete objects">
-    <StatefulDiffCommand obj-id="17312" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Remove id="17638"/>
-          <Remove id="17641"/>
-          <Remove id="17644"/>
-          <Remove id="17647"/>
-          <Remove id="17650"/>
-          <Remove id="17653"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17641"/>
-            <Region id="17638"/>
-            <Region id="17650"/>
-            <Region id="17647"/>
-            <Region id="17644"/>
-            <Region id="17653"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597922" tv-usec="445357" name="Region end trim">
-    <StatefulDiffCommand obj-id="17474" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="182483" to="250366"/>
-        <length-beats from="12.000015873015872" to="16.463977324263038"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597924" tv-usec="184338" name="Region end trim">
-    <StatefulDiffCommand obj-id="17474" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="250366" to="243310"/>
-        <length-beats from="16.463977324263038" to="15.999977324263039"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597930" tv-usec="500760" name="delete selection">
-    <NoteDiffCommand midi-source="17472">
-      <ChangedNotes/>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="384036" note="45" channel="0" time="8.2479166666666668" length="0.50156250000000002" velocity="64"/>
-        <note id="383704" note="45" channel="0" time="0.7494791666666667" length="0.5005208333333333" velocity="64"/>
-        <note id="383791" note="50" channel="0" time="5.2489583333333334" length="0.50104166666666672" velocity="68"/>
-        <note id="384039" note="50" channel="0" time="8.2479166666666668" length="0.50156250000000002" velocity="64"/>
-        <note id="384057" note="45" channel="0" time="10.497916666666667" length="0.50156250000000002" velocity="68"/>
-        <note id="384042" note="50" channel="0" time="8.9994791666666671" length="0.5005208333333333" velocity="68"/>
-        <note id="384021" note="50" channel="0" time="5.9994791666666671" length="0.5005208333333333" velocity="64"/>
-        <note id="383782" note="50" channel="0" time="4.4989583333333334" length="0.50104166666666672" velocity="68"/>
-        <note id="384051" note="50" channel="0" time="9.7484374999999996" length="0.50104166666666672" velocity="68"/>
-        <note id="383707" note="50" channel="0" time="0.7494791666666667" length="0.5005208333333333" velocity="64"/>
-        <note id="384045" note="45" channel="0" time="8.9994791666666671" length="0.5005208333333333" velocity="68"/>
-        <note id="384024" note="45" channel="0" time="6.7489583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="383773" note="50" channel="0" time="3" length="0.5" velocity="68"/>
-        <note id="383770" note="45" channel="0" time="3" length="0.5" velocity="68"/>
-        <note id="383776" note="45" channel="0" time="3.7494791666666667" length="0.5005208333333333" velocity="68"/>
-        <note id="383779" note="50" channel="0" time="3.7494791666666667" length="0.5005208333333333" velocity="68"/>
-        <note id="384027" note="50" channel="0" time="6.7489583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="384033" note="45" channel="0" time="7.4989583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="383729" note="50" channel="0" time="1.4994791666666667" length="0.5005208333333333" velocity="64"/>
-        <note id="383726" note="45" channel="0" time="1.4994791666666667" length="0.5005208333333333" velocity="64"/>
-        <note id="383732" note="45" channel="0" time="2.2489583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="383735" note="50" channel="0" time="2.2489583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="384060" note="50" channel="0" time="11.247916666666667" length="0.50156250000000002" velocity="68"/>
-        <note id="384063" note="45" channel="0" time="11.247916666666667" length="0.50156250000000002" velocity="68"/>
-        <note id="383788" note="45" channel="0" time="5.2489583333333334" length="0.50104166666666672" velocity="68"/>
-        <note id="384048" note="45" channel="0" time="9.7484374999999996" length="0.50104166666666672" velocity="68"/>
-        <note id="384030" note="50" channel="0" time="7.4989583333333334" length="0.50104166666666672" velocity="64"/>
-        <note id="384018" note="45" channel="0" time="5.9994791666666671" length="0.5005208333333333" velocity="64"/>
-        <note id="384054" note="50" channel="0" time="10.497916666666667" length="0.50156250000000002" velocity="68"/>
-        <note id="383785" note="45" channel="0" time="4.4989583333333334" length="0.50104166666666672" velocity="68"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1280" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="384027"/>
-            <note note-id="383704"/>
-            <note note-id="383729"/>
-            <note note-id="384060"/>
-            <note note-id="384063"/>
-            <note note-id="384018"/>
-            <note note-id="383776"/>
-            <note note-id="383779"/>
-            <note note-id="384024"/>
-            <note note-id="384048"/>
-            <note note-id="383782"/>
-            <note note-id="383788"/>
-            <note note-id="384039"/>
-            <note note-id="384021"/>
-            <note note-id="383735"/>
-            <note note-id="383785"/>
-            <note note-id="383791"/>
-            <note note-id="384036"/>
-            <note note-id="383773"/>
-            <note note-id="384051"/>
-            <note note-id="384054"/>
-            <note note-id="383732"/>
-            <note note-id="383707"/>
-            <note note-id="384033"/>
-            <note note-id="383770"/>
-            <note note-id="384042"/>
-            <note note-id="384045"/>
-            <note note-id="384057"/>
-            <note note-id="383726"/>
-            <note note-id="384030"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="1280" left-frame="0" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597938" tv-usec="264319" name="resize notes">
-    <NoteDiffCommand midi-source="17472">
-      <ChangedNotes>
-        <Change property="Length" old="0.5" new="16" id="375379"/>
-        <Change property="Length" old="0.5" new="16" id="375391"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="320" left-frame="3360" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="375379"/>
-            <note note-id="375391"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="320" left-frame="3360" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="17474">
-            <note note-id="375379"/>
-            <note note-id="375391"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586597964" tv-usec="112175" name="duplicate region">
-    <StatefulDiffCommand obj-id="17312" type-name="ARDOUR::MidiPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="17677"/>
-          <Add id="17680"/>
-          <Add id="17683"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="17474" type-name="ARDOUR::MidiRegion">
-      <Changes>
-        <length from="250366" to="243310"/>
-        <length-beats from="16.463977324263038" to="15.999977324263039"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2622" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17474"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2622" left-frame="0" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="17677"/>
-            <Region id="17683"/>
-            <Region id="17680"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586605744" tv-usec="719980" name="Create Note">
-    <NoteDiffCommand midi-source="3922">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="469876" note="52" channel="0" time="5" length="0.25" velocity="62"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2622" left-frame="0" y-origin="0">
-        <Selection>
-          <StripableView id="5983"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="2622" left-frame="0" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="7088">
-            <note note-id="469876"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586605771" tv-usec="909039" name="delete MIDI">
-    <NoteDiffCommand midi-source="3922">
-      <ChangedNotes/>
-      <AddedNotes/>
-      <RemovedNotes>
-        <note id="469876" note="52" channel="0" time="5" length="0.25" velocity="62"/>
-      </RemovedNotes>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="327" left-frame="491130" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="7088">
-            <note note-id="469876"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="327" left-frame="491130" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586606452" tv-usec="692227" name="insert file">
-    <StatefulDiffCommand obj-id="19735" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="19766"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="641" left-frame="0" y-origin="0">
-        <Selection/>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="641" left-frame="0" y-origin="0">
-        <Selection>
-          <StripableView id="19696"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1586606557" tv-usec="160842" name="Region start trim">
-    <StatefulDiffCommand obj-id="19766" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="0" to="60828"/>
-        <length from="30570404" to="30509576"/>
-        <position from="0" to="60828"/>
-        <beat from="0" to="4.0000272108843538"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="19792" interpolation-style="Exponential" state="Off">
-              <events>0 1
-30570404 1
+  <UndoTransaction tv-sec="1586622703" tv-usec="685905" name="automation event move">
+    <MementoUndoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+68435 11609.9248046875
 </events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="19793" interpolation-style="Exponential" state="Off">
-              <events>0 1
-30509576 1
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+68434 11609.9248046875
 </events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
+      </AutomationList>
+    </MementoRedoCommand>
     <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1586606560" tv-usec="228649" name="Region start trim">
-    <StatefulDiffCommand obj-id="19766" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="60828" to="60892"/>
-        <length from="30509576" to="30509512"/>
-        <position from="60828" to="60892"/>
-        <beat from="4.0000272108843538" to="4.0042358276643997"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="19799" interpolation-style="Exponential" state="Off">
-              <events>0 1
-30509576 1
+  <UndoTransaction tv-sec="1586622710" tv-usec="472794" name="automation event move">
+    <MementoUndoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+68434 11609.9248046875
 </events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="19800" interpolation-style="Exponential" state="Off">
-              <events>0 1
-30509512 1
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>296531 8845.634765625
+364966 5134.85791015625
 </events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
+      </AutomationList>
+    </MementoRedoCommand>
     <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1586606561" tv-usec="583988" name="Region start trim">
-    <StatefulDiffCommand obj-id="19766" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="60892" to="76034"/>
-        <length from="30509512" to="30494370"/>
-        <position from="60892" to="76034"/>
-        <beat from="4.0042358276643997" to="4.9999682539682544"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="19806" interpolation-style="Exponential" state="Off">
-              <events>0 1
-30509512 1
+  <UndoTransaction tv-sec="1586622715" tv-usec="775270" name="add automation event">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>296531 8845.634765625
+364966 5134.85791015625
 </events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="19807" interpolation-style="Exponential" state="Off">
-              <events>0 1
-30494370 1
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>273729 7213.6298828125
+296531 8845.634765625
+364966 5134.85791015625
 </events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
+      </AutomationList>
+    </MementoCommand>
     <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1586606565" tv-usec="583233" name="region drag">
-    <StatefulDiffCommand obj-id="19766" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <position from="76034" to="0"/>
-        <beat from="4.9999682539682544" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1586622717" tv-usec="642785" name="automation event move">
+    <MementoUndoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>273729 7213.6298828125
+296531 8845.634765625
+364966 5134.85791015625
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>273729 2784.856201171875
+296531 8845.634765625
+364966 5134.85791015625
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
     <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1586606798" tv-usec="39251" name="normalize">
-    <StatefulDiffCommand obj-id="19766" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1" to="6.0257439613342285"/>
-      </Changes>
-    </StatefulDiffCommand>
+  <UndoTransaction tv-sec="1586622718" tv-usec="36419" name="delete MIDI">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>273729 2784.856201171875
+296531 8845.634765625
+364966 5134.85791015625
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>296531 8845.634765625
+364966 5134.85791015625
+</events>
+      </AutomationList>
+    </MementoCommand>
     <MementoCommand obj-id="43" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="320" left-frame="0" y-origin="0">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
         <Selection>
-          <Regions>
-            <Region id="19766"/>
-          </Regions>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622719" tv-usec="321284" name="delete MIDI">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>296531 8845.634765625
+364966 5134.85791015625
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>364966 5134.85791015625
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622723" tv-usec="462080" name="automation event move">
+    <MementoUndoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>364966 5134.85791015625
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622725" tv-usec="54428" name="add automation event">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+958036 53.994289398193359
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622727" tv-usec="268192" name="add automation event">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+958036 53.994289398193359
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+958036 53.994289398193359
+973241 31.343481063842773
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="2"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622728" tv-usec="285615" name="delete MIDI">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+958036 53.994289398193359
+973241 31.343481063842773
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+973241 31.343481063842773
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622729" tv-usec="895878" name="automation event move">
+    <MementoUndoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+973241 31.343481063842773
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Play">
+        <events>851586 20000
+973240 5
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622757" tv-usec="6781" name="add automation event">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>851586 20000
+973240 5
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>364966 475.49996948242188
+851586 20000
+973240 5
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="2342"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622757" tv-usec="783964" name="delete MIDI">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>364966 475.49996948242188
+851586 20000
+973240 5
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>851586 20000
+973240 5
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622759" tv-usec="564760" name="delete MIDI">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>851586 20000
+973240 5
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>973240 5
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622760" tv-usec="523544" name="delete MIDI">
+    <MementoCommand obj-id="34929" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off">
+        <events>973240 5
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-1" id="34929" interpolation-style="Logarithmic" state="Off"/>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34929" parameter="parameter-1" view-index="0"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622867" tv-usec="899884" name="add automation event">
+    <MementoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off"/>
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+851586 20000
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="2342"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622870" tv-usec="410460" name="add automation event">
+    <MementoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+851586 20000
+</events>
+      </AutomationList>
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+851586 20000
+973241 21.165092468261719
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="2"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622874" tv-usec="31746" name="automation event move">
+    <MementoUndoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+851586 20000
+973241 21.165092468261719
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+851586 20000
+973240 20
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="2"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="2"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622875" tv-usec="535589" name="automation range move">
+    <MementoUndoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+851586 20000
+973240 20
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Off">
+        <events>0 20000
+851586 20000
+973240 20
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="1"/>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="2"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="1"/>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="2"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1586622909" tv-usec="510339" name="automation event move">
+    <MementoUndoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Play">
+        <events>0 20000
+851586 20000
+973240 20
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj-id="34935" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="parameter-4" id="34935" interpolation-style="Logarithmic" state="Play">
+        <events>0 20000
+912415 20000
+973240 20
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="1"/>
+          <Marker id="507" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1620" left-frame="0" y-origin="0">
+        <Selection>
+          <ControlPoint type="track" route-id="2342" automation-list-id="34935" parameter="parameter-4" view-index="1"/>
+          <Marker id="507" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
