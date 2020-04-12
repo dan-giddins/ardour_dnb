@@ -2,7 +2,7 @@
 <instant>
   <LastUsedSnapshot name="ardour_dnb"/>
   <Main x="1024" y="27" w="1920" h="1016" current-tab="editor"/>
-  <Editor id="46" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="1620" grid-type="GridTypeBeatDiv2" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapMagnetic" pre-internal-grid-type="GridTypeBeatDiv2" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" playhead="1114553" left-frame="0" y-origin="0" maximised="0" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="3" show-marker-lines="1" nudge-clock-value="220500">
+  <Editor id="46" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Narrow" zoom-focus="ZoomFocusMouse" zoom="3190" grid-type="GridTypeBeatDiv2" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapMagnetic" pre-internal-grid-type="GridTypeBeatDiv2" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" playhead="0" left-frame="0" y-origin="0" maximised="0" follow-playhead="1" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="5" show-marker-lines="1" nudge-clock-value="220500">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
     <Buttons>
       <Press/>
@@ -10,7 +10,7 @@
     </Buttons>
     <Selection>
       <StripableView id="5983"/>
-      <Marker id="507" start="1"/>
+      <Marker id="403" start="0"/>
     </Selection>
     <RegionList/>
     <EditorLocations clock-mode="Timecode"/>
